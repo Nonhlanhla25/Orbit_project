@@ -224,6 +224,36 @@ p{
   opacity: 1;
 }
 
+footer{
+  position: relative;
+  width: 100%;
+  padding: 40px 10vw;
+  padding-bottom: 80px;
+  background: #000000;
+}
+
+.footer-content{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottomItems{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.brand-name a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #de5227;
+  right: 50px;
+
+}
+
 
 
 
