@@ -1,0 +1,108 @@
+
+*{
+    margin-left: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+   }
+
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  
+  .product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #de5227;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .product-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin-right: 20px;
+   
+    box-sizing:content-box;
+    border: #de5227;
+    
+    /* overflow-x: auto; */
+    /* scroll-behavior: smooth; */
+  }
+  
+  /* .product-container::-webkit-scrollbar{
+    display: none;
+  } */
+  
+  .product-card{
+    flex: 0 0 auto;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    margin-right: 30px;
+    
+  }
+  
+  .product-image{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    overflow: hidden;
+    margin-top: 30px;
+  
+  }
+  .product-shoes{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  .card-btn{
+    /* position: absolute; */
+    /* justify-content: space-between; */
+    /* bottom: 4px; */
+    /* left: 50%; */
+    /* transform: translate(70%); */
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 20%;
+    /* text-transform: capitalize; */
+    border: none;
+    outline: none;
+    background-color: #de5227;
+    border-radius: 10px;
+    /* transition: 0.5s; */
+    cursor: pointer;
+    /* opacity: 0; */
+  }
+  
+ 
+  
+  .product-card:hover .card-btn{
+    opacity: 1;
+  }
+  
+  .card-btn:hover{
+    background-color: grey;
+  }
+  .product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  .product-brand{
+    text-transform: uppercase;
+    color: #de5227;
+  }
+  .price{
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+  }
