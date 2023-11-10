@@ -43,7 +43,7 @@ public class SelectOrbit {
         }
     }
 
-    public void printResults(double orbiTtMegamiles1, double orbiTtMegamiles2, String conditions) {
+    public void printResults(int orbiTtMegamiles1, int orbiTtMegamiles2, String conditions) {
         System.out.println("Weather is " + conditions);
         System.out.println("Orbit1 is traffic speed is " + orbiTtMegamiles1 + " megamile/hour");
         System.out.println("Orbit2 is traffic speed is " + orbiTtMegamiles2 + " megamile/hour");
