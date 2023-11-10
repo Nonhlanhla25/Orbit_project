@@ -9,22 +9,7 @@ public class Vehicles{
         this.speed = speed;
         this.minutes = minutes;
     }
-    public void setName(String name) {
-        name = name;
-    }
-
-    public void setSpeed(int speed) {
-        speed = speed;
-    }
-
-    public void setMinutes(int minutes) {
-        minutes = minutes;
-    }
-
-    public String getName() {
-        return name;
-    }
-
+    
     public int getSpeed() {
         return speed;
     }
